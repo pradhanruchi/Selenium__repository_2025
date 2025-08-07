@@ -11,7 +11,7 @@ public class JavaUtility {
 	 * This method will return current system date and time in String fromate
 	 * @return String
 	 */
-	//public String getSystemTime() {
+	public String getSystemTime() {
 		return LocalDateTime.now().toString().replace(":", "-");
 	}
 	/**
@@ -25,4 +25,5 @@ public class JavaUtility {
 	}
 
 }
+
 
